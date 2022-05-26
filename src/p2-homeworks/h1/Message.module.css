@@ -1,9 +1,11 @@
 .message {
 display: flex;
+
 }
 
 .avatar{
-    width: 70px;
+    width: 50px;
+    height: 50px;
 }
 
 .messageData{
@@ -13,10 +15,15 @@ display: flex;
     height: 100px;
     background-color: cornflowerblue;
     margin-top: 20px;
+    border-radius: 10px;
 }
 .MessageTime{
     display: flex;
 }
 .time{
     padding-left: 60px;
+}
+
+.avatarBlock{
+    margin-top: 65px;
 }

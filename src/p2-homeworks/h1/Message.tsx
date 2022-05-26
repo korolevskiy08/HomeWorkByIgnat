@@ -11,7 +11,7 @@ type MessageDataType = {
 function Message(props: MessageDataType) {
     return (
         <div className={c.message}>
-            <div>
+            <div className={c.avatarBlock}>
                 <img className={c.avatar}
                      src="https://sun9-74.userapi.com/Ph-WiuOtF985il9AvN9JqiCWedmHtSGSSTXrSA/ltEB2Z2-YO4.jpg" alt=""/>
 
