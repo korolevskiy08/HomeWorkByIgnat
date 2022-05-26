@@ -1,0 +1,22 @@
+.message {
+display: flex;
+}
+
+.avatar{
+    width: 70px;
+}
+
+.messageData{
+    display: grid;
+    justify-content: space-between;
+    width: 200px;
+    height: 100px;
+    background-color: cornflowerblue;
+    margin-top: 20px;
+}
+.MessageTime{
+    display: flex;
+}
+.time{
+    padding-left: 60px;
+}
