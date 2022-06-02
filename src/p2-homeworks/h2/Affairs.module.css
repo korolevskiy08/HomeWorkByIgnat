@@ -1,3 +1,16 @@
-.someClass {
+.content{
+    display: grid;
+    grid-template-columns: 90px 75px 1px;
+}
 
+.high{
+    color: red;
+}
+
+.low{
+    color: green;
+}
+
+.middle{
+    color: blue;
 }
