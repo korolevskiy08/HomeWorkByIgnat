@@ -3,7 +3,7 @@ import Affair from './Affair'
 import {AffairType, deleteAffair, FilterType} from './HW2'
 
 type AffairsPropsType = { // need to fix any
-    data: any
+    data: Array<AffairType>
     setFilter: (buttonValue: FilterType)=>void
     deleteAffairCallback: (_id: number)=>void
 }
