@@ -5,3 +5,13 @@
 .error {
     border: 1px solid red;
 }
+
+.inputClassOnn{
+    background-color: green;
+}
+
+.inputClassOff{
+    background-color: red;
+}
+
+
