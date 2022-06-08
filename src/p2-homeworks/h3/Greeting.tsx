@@ -4,8 +4,8 @@ import s from './Greeting.module.css'
 type GreetingPropsType = {
     name: string // need to fix any
     setNameCallback: any // need to fix any
-    addUser: any // need to fix any
-    error: any // need to fix any
+    addUser: ()=>void // need to fix any
+    error: string // need to fix any
     totalUsers: number // need to fix any
 }
 

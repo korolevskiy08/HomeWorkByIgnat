@@ -26,7 +26,7 @@ const GreetingContainer: React.FC<GreetingContainerPropsType> = ({users, addUser
         }
     }
 
-    const addUser = (name: string) => {
+    const addUser = () => {
         addUserCallback(name)
         setName('')
 }
