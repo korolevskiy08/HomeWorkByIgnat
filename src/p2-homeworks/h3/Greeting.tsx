@@ -1,10 +1,12 @@
-import React from 'react'
+import React, {ChangeEvent} from 'react'
 import s from './Greeting.module.css'
+import SuperInputText from "../h4/common/c1-SuperInputText/SuperInputText";
+import SuperButton from "../h4/common/c2-SuperButton/SuperButton";
 
 type GreetingPropsType = {
     name: string // need to fix any
-    setNameCallback: any // need to fix any
-    addUser: ()=>void // need to fix any
+    setNameCallback: (e: ChangeEvent<HTMLInputElement>) => void // need to fix any
+    addUser: () => void // need to fix any
     error: string | null // need to fix any
     totalUsers: number // need to fix any
 }
@@ -17,13 +19,15 @@ const Greeting: React.FC<GreetingPropsType> = (
 
     return (
         <div>
-            <input value={name} onChange={setNameCallback} className={inputClass}/>
-            <button disabled={!name} onClick={addUser}>add</button>
+            <SuperInputText error={error}
+                            value={name}
+                            onChange={setNameCallback}
+                            className={inputClass}/>
+            {/*<input value={name} onChange={setNameCallback} className={inputClass}/>*/}
+            {/*<button disabled={!name} onClick={addUser}>add</button>*/}
+            <SuperButton disabled={!name}
+                         onClick={addUser}>add</SuperButton>
             <span>{totalUsers}</span>
-            <div>
-                <span>{error}</span>
-            </div>
-
         </div>
     )
 }
