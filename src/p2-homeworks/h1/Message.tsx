@@ -16,16 +16,18 @@ function Message(props: MessageDataType) {
                      src="https://sun9-74.userapi.com/Ph-WiuOtF985il9AvN9JqiCWedmHtSGSSTXrSA/ltEB2Z2-YO4.jpg" alt=""/>
 
             </div>
-            <div className={c.messageData}>
-                <div>
-                    {props.name}
-                </div>
-                <div className={c.MessageTime}>
+            <div>
+                <div className={c.stylesDialog}>
                     <div>
-                        {props.message}
+                        {props.name}
                     </div>
-                    <div className={c.time}>
-                        {props.time}
+                    <div className={c.MessageTime}>
+                        <div>
+                            {props.message}
+                        </div>
+                        <div className={c.time}>
+                            {props.time}
+                        </div>
                     </div>
                 </div>
             </div>

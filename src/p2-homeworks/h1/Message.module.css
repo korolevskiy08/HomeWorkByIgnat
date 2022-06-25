@@ -1,14 +1,15 @@
 .message {
-display: flex;
-
+    display: flex;
 }
 
-.avatar{
+.avatar {
     width: 50px;
     height: 50px;
+    border-radius: 50%;
 }
 
-.messageData{
+.stylesDialog {
+    position: relative;
     display: grid;
     justify-content: space-between;
     width: 200px;
@@ -17,13 +18,26 @@ display: flex;
     margin-top: 20px;
     border-radius: 10px;
 }
-.MessageTime{
+
+.stylesDialog:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: -40px;
+    height: 20px;
+    width: 40px;
+    border-bottom-right-radius: 50%;
+    box-shadow: 20px 0 0 0 cornflowerblue;
+}
+
+.MessageTime {
     display: flex;
 }
-.time{
+
+.time {
     padding-left: 60px;
 }
 
-.avatarBlock{
-    margin-top: 65px;
+.avatarBlock {
+    margin: 65px 10px 0 0;
 }

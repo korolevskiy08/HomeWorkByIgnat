@@ -8,7 +8,7 @@ const messageData = {
     time: '22:00',
 }
 
-function HW1(props: any) {
+function HW1() {
     return (
         <div>
             <hr/>
