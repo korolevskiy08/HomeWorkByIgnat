@@ -1,0 +1,10 @@
+.iconDoubleClick{
+    width: 30px;
+    height: 30px;
+    transform: rotate(90deg);
+}
+
+.content{
+    display: flex;
+    align-items: center;
+}
