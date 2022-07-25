@@ -1,0 +1,13 @@
+.content{
+    width: 150px;
+}
+
+.item{
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons{
+    display: flex;
+    height: 40px;
+}
