@@ -1,23 +1,14 @@
 .dark {
     background: dimgrey;
+    color: white;
 }
 
-.dark-text {
-    color: aliceblue;
+.green {
+    background: #0a3f1a;
+    color: white;
 }
 
-.red {
-    background: lightcoral;
-}
-
-.red-text {
-    color: aqua;
-}
-
-.some {
-    background: lightgreen;
-}
-
-.some-text {
-    color: darkslateblue;
+.select{
+    display: flex;
+    justify-content: center;
 }
