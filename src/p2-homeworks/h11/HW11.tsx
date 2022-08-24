@@ -11,10 +11,8 @@ function HW11() {
     }
 
     const onChangeValueDoubleRange = (value: [number, number]) => {
-
         setValue(value)
     }
-
 
     return (
         <div>
@@ -25,7 +23,6 @@ function HW11() {
                 <div style={{display: 'flex', flexDirection: 'row'}}>
                     <span>{value[0]}</span>
                     <SuperRange
-                        // сделать так чтоб value1 изменялось
                         onChangeRange={numberCallbackForSuperRange}
                         value={value[0]}
                     />
@@ -37,8 +34,6 @@ function HW11() {
                     <MinimumDistanceSlider
                         setValue={onChangeValueDoubleRange}
                         value={value}
-
-                        // сделать так чтоб value1 и value2 изменялось
                     />
                     <span>{value[1]}</span>
                 </div>
